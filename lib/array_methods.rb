@@ -20,5 +20,11 @@ end
 
 
 def find_min_value(array)
-  # Add your solution here
+counter = 0
+while counter < array.length do
+min_num = array.min
+counter +=1
 end
+min_num
+end
+
